@@ -3,7 +3,7 @@ name: Deploy with Approval Gate
 on:
   push:
     branches:
-      - main
+      - master
   workflow_dispatch:   # allows manual trigger from GitHub UI
 
 jobs:
